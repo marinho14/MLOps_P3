@@ -191,7 +191,7 @@ def train_models():
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2024, 4, 5),
+    'start_date': datetime(2024, 6, 5),
     'retries': 1,
     'retry_delay': timedelta(minutes=1)
 }
