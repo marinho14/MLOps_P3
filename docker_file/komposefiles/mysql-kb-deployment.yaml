@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.yml -o komposefiles/ --volumes emptyDir
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: mysql-kb
+  name: mysql-kb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: mysql-kb
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f docker-compose.yml -o komposefiles/ --volumes emptyDir
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: mysql-kb
+    spec:
+      containers:
+        - env:
+            - name: MYSQL_DATABASE
+              value: airflow
+            - name: MYSQL_PASSWORD
+              value: airflow
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+            - name: MYSQL_USER
+              value: airflow
+          image: mysql:latest
+          livenessProbe:
+            exec:
+              command:
+                - mysqladmin
+                - ping
+                - -h
+                - localhost
+            failureThreshold: 5
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          name: mysql-kb
+          ports:
+            - containerPort: 3307
+            - containerPort: 3306
+          resources:
+            limits:
+              cpu: 750m
+              memory: "2147483648"
+          volumeMounts:
+            - mountPath: /var/lib/mysql
+              name: mysql-db-volume-kb
+      restartPolicy: Always
+      volumes:
+        - emptyDir: {}
+          name: mysql-db-volume-kb
+status: {}

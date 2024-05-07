@@ -1,0 +1,39 @@
+[2024-05-06T12:01:35.927+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main.train_models_task manual__2024-05-06T11:55:40.022403+00:00 [queued]>
+[2024-05-06T12:01:35.962+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main.train_models_task manual__2024-05-06T11:55:40.022403+00:00 [queued]>
+[2024-05-06T12:01:35.963+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-05-06T12:01:36.083+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): train_models_task> on 2024-05-06 11:55:40.022403+00:00
+[2024-05-06T12:01:36.175+0000] {standard_task_runner.py:57} INFO - Started process 626 to run task
+[2024-05-06T12:01:36.182+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'main', 'train_models_task', 'manual__2024-05-06T11:55:40.022403+00:00', '--job-id', '281', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpjne9imiy']
+[2024-05-06T12:01:36.189+0000] {standard_task_runner.py:85} INFO - Job 281: Subtask train_models_task
+[2024-05-06T12:01:36.524+0000] {task_command.py:415} INFO - Running <TaskInstance: main.train_models_task manual__2024-05-06T11:55:40.022403+00:00 [running]> on host 9ab4eda088b1
+[2024-05-06T12:01:36.943+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main' AIRFLOW_CTX_TASK_ID='train_models_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T11:55:40.022403+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-06T11:55:40.022403+00:00'
+[2024-05-06T12:01:37.592+0000] {warnings.py:109} WARNING - /opt/***/dags/main.py:113: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql_query(query, conn)
+
+[2024-05-06T12:01:42.243+0000] {logging_mixin.py:151} WARNING - 2024/05/06 12:01:42 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2024-05-06T12:01:45.264+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/joblib/parallel.py:1332: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+
+[2024-05-06T12:06:52.383+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-05-06T12:06:52.394+0000] {process_utils.py:131} INFO - Sending 15 to group 626. PIDs of all processes in the group: [626]
+[2024-05-06T12:06:52.398+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 626
+[2024-05-06T12:06:52.454+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-05-06T12:07:52.442+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=626, name='airflow task ru', status='running', started='12:01:35') did not respond to SIGTERM. Trying SIGKILL
+[2024-05-06T12:07:52.463+0000] {process_utils.py:86} INFO - Sending the signal 9 to group 626
+[2024-05-06T12:07:52.813+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=626, name='airflow task ru', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='12:01:35') (626) terminated with exit code -9
+[2024-05-06T12:07:52.815+0000] {standard_task_runner.py:172} ERROR - Job 281 was killed before it finished (likely due to running out of memory)

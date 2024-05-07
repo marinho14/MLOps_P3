@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  fastapi:
+     image : marinho14/inference_image:tag
+     ports:
+       - "8083:8000"
+     deploy:
+       resources:
+         limits:
+           cpus: '0.75'  
+           memory: 2G
+
+ # mysql-kb:
+ #   image: mysql:latest
+ #   environment:
+ #     MYSQL_ROOT_PASSWORD: root
+ #     MYSQL_DATABASE: airflow
+ #     MYSQL_USER: airflow
+ #     MYSQL_PASSWORD: airflow
+ #   ports:
+ #     - 3307:3307
+ #     - 3306:3306
+ #   volumes:
+ #     - mysql-db-volume-kb:/var/lib/mysql
+ #   healthcheck:
+ #     test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+ #     interval: 10s
+ #     retries: 5
+ #     start_period: 5s
+ #   restart: always
+ #   deploy:
+ #     resources:
+ #       limits:
+ #         cpus: '0.75'  
+ #         memory: 2G
+    
+# volumes:
+#  mysql-db-volume-kb:

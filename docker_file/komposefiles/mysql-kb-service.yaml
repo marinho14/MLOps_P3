@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.yml -o komposefiles/ --volumes emptyDir
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: mysql-kb
+  name: mysql-kb
+spec:
+  ports:
+    - name: "3307"
+      port: 3307
+      targetPort: 3307
+    - name: "3306"
+      port: 3306
+      targetPort: 3306
+  selector:
+    io.kompose.service: mysql-kb
+status:
+  loadBalancer: {}

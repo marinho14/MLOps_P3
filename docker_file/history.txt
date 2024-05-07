@@ -1,0 +1,1000 @@
+  454  sudo git add .
+  455  sudo git commit -m "conserve"
+  456  git pull
+  457  sudo git pull
+  458  git add .
+  459  sudo git add .
+  460  sudo git pull
+  461  git merge --abort
+  462  sudo git merge --abort
+  463  sudo git pull
+  464  sudo git commit -m "merge"
+  465  sudo git pull
+  466  sudo git push
+  467  git reset minio/
+  468  sudogit reset minio/
+  469  sudo git reset minio/
+  470  git checkout -- minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta
+  471  git checkout -- minio/.minio.sys/buckets/.usage.json/xl.meta
+  472  sudo git checkout -- minio/.minio.sys/buckets/.usage.json/xl.meta
+  473  sudo git checkout -- minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta
+  474  git reset minio/
+  475  sudo git reset minio/
+  476  sudo git checkout -- minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta
+  477  sudo git checkout -- minio/.minio.sys/buckets/.usage.json/xl.meta
+  478  sudo git reset minio/
+  479  sudo git checkout -- minio/.minio.sys/buckets/.usage.json/xl.meta
+  480  sudo git checkout -- minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta
+  481  git add .
+  482  git commit -m "add"
+  483  sudo git commit -m "add"
+  484  docker compose down 
+  485  docker compose upp --build
+  486  docker compose up --build
+  487  cls
+  488  clear
+  489  docker compose up --build
+  490  ccls
+  491  docker compose up --build
+  492  docker compose up
+  493  cls
+  494  docker compose up --build
+  495  sudo git app .
+  496  sudo git add .
+  497  sudo git commit -m "inference working"
+  498  sudo git push
+  499  cls
+  500  clear
+  501  cls
+  502  clear
+  503  docker compose up
+  504  docker compose up --build
+  505  sudo git add .
+  506  sudo git commit -m "add things"
+  507  docker ps
+  508  docker compose down
+  509  ls
+  510  cd MLops_P2/
+  511  ls
+  512  cd dags/
+  513  ls
+  514  nano train_model.py 
+  515  nano fetch_data.py 
+  516  ls
+  517  cd ..
+  518  ls
+  519  cd inference/
+  520  ls
+  521  nano inference_api.py 
+  522  docker compose up --build
+  523  docker compose up
+  524  clear
+  525  exit
+  526  docker compose up
+  527  docker compose down
+  528  docker compose up
+  529  docker compose down
+  530  cd MLops_P2/
+  531  ls
+  532  docker ps
+  533  docker compose up
+  534  docker compose up -d
+  535  docker ps
+  536  curl -v 10.43.101.51:5000/health
+  537  docker compose down
+  538  docker compose up -d
+  539  docker ps
+  540  curl -v localhost:5000/health
+  541  curl -v 10.43.101.51:5000/health
+  542  ping www.google.com
+  543  ifconfig
+  544  ipconfig
+  545  curl -v 10.43.101.51:5000/health
+  546  curl -v localhost:5000/health
+  547  docker ps
+  548  ping www.google.com
+  549  docker compose up --build
+  550  docker compose down
+  551  docker compose up --build
+  552  docke compose down
+  553  docker compose down
+  554  docker compose up --build
+  555  docker compose down
+  556  docker compose up --build
+  557  docker compose down
+  558  docker compose up --build
+  559  docker compose down
+  560  docker compose up --build
+  561  docker compose down
+  562  docker compose up --build
+  563  docker compose down
+  564  docker compose up --build
+  565  docker compose down
+  566  docker compose up --build
+  567  python --version
+  568  python3 --version
+  569  docker compose up --build
+  570  docker compose down
+  571  docker compose up --build
+  572  docker compose down
+  573  docker compose up --build
+  574  docker compose down
+  575  git pull origin main
+  576  sudo chmod +x .
+  577  git add .
+  578  sudo git add .
+  579  sudo commit -m "fix versions sklearn"
+  580  sudo git commit -m "fix versions sklearn"
+  581  git push
+  582  git fetch
+  583  sudo git fetch
+  584  sudo git pull
+  585  git push
+  586  docker compose down
+  587  docker compose up --build
+  588  docker compose down
+  589  docker compose down 
+  590  docker compose down
+  591  docker login
+  592  docker build -t marinho14/inference_image:tag .
+  593  cd Taller_4
+  594  docker build -t marinho14/inference_image:tag .
+  595  cls
+  596  docker build -t marinho14/inference_image:tag .
+  597  dockerpush t marinho14/inference_image:tag
+  598  docker push t marinho14/inference_image:tag
+  599  docker push marinho14/inference_image:tag
+  600  docker ps
+  601  cd ..
+  602  cd Taller_4-dockercompose/
+  603  docker compose up
+  604  cd ..
+  605  cd Taller_
+  606  cd Taller_4
+  607  docker build -t marinho14/inference_image:tag .
+  608  docker push marinho14/inference_image:tag
+  609  docker build -t marinho14/inference_image:tag .
+  610  docker push marinho14/inference_image:tag
+  611  docker build -t marinho14/inference_image:tag .
+  612  cd Taller_4-dockercompose/
+  613  docker-compose up
+  614  docker compose up --build
+  615  cls
+  616  clear
+  617  cd ..
+  618  cd Taller-4-locust
+  619  cd Taller_4-locust
+  620  docker compose up --build
+  621  cls
+  622  docker compose up --build
+  623  docker network ls
+  624  docker compose up --build
+  625  cls
+  626  docker compose up --build
+  627  git push
+  628  git commit -m "add taller_4"
+  629  git add .
+  630  git commit -m "add taller_4"
+  631  git push
+  632  git add .
+  633  git commit -m "add taller_4"
+  634  git commit -m "add taller_44"
+  635  git add .
+  636  git commit -m "add taller_44"
+  637  cd ..
+  638  git add .
+  639  git commit "add taller 4"
+  640  git commit -m "add taller 4"
+  641  git push
+  642  docker ps -a
+  643  cls
+  644  clear
+  645  ls
+  646  cd ..
+  647  ls
+  648  git clone https://github.com/marinho14/MLOps.git
+  649  cd MLOps/
+  650  clear
+  651  code .
+  652  docker ps
+  653  docker compose up
+  654  git add .
+  655  git commit -m "working"
+  656  git push
+  657  git pushcls
+  658  cd Taller_4/call_docker_hub/
+  659  docker compose up
+  660  cls
+  661  clear
+  662  cls
+  663  clear
+  664  docker compose up
+  665  cd ..
+  666  ls
+  667  cd MLOps/
+  668  cd ..
+  669  cd MLOps
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd MLops_P2/
+  674  ls
+  675  cls
+  676  clear
+  677  cd call_docker_hub
+  678  cd Taller_4
+  679  cd call_docker_hub/
+  680  docker-compose up --build
+  681  docker compose up 
+  682  cd ..
+  683  cd loc
+  684  cd locust/
+  685  docker compose up 
+  686  docker stop locustmaster
+  687  docker rm locustmaster
+  688  docker stop locustmaster
+  689  cls
+  690  docker compose up 
+  691  docker stop locustworker
+  692  docker rm locustworker
+  693  docker stop locustworker
+  694  docker compose up 
+  695  docker compose up --build
+  696  cls
+  697  clear
+  698  docker compose up --build
+  699  cls
+  700  clear
+  701  docker compose up --build
+  702  docker compose kill
+  703  docker compose up --build
+  704  clear
+  705  docker compose up --build
+  706  clear
+  707  docker compose up --build
+  708  cls
+  709  docker compose up --build
+  710  docker container prune
+  711  docker compose up --build
+  712  docker image prune -a
+  713  cls
+  714  clear
+  715  docker image prune -a
+  716  docker compose up --build
+  717  cls
+  718  clear
+  719  docker compose up --build
+  720  telnet 10.43.101.151 8083
+  721  netstat -tuln | grep 8083
+  722  cat /var/log/syslog
+  723  cat /var/log/syslog | grep ":8083"
+  724  docker ps
+  725  clear
+  726  git add .
+  727  git commit -m "part of readme#
+  728  git commit -m "part of readme"
+  729  ls
+  730  lsa
+  731  ls -a
+  732  pwd
+  733  docker compose /home/estudiante/MLops_P2/
+  734  ls /home/estudiante/MLops_P2/
+  735  docker compose up /home/estudiante/MLops_P2/ -d
+  736  docker compose up /home/estudiante/MLops_P2/
+  737  docker compose up /home/estudiante/MLops_P2/docker-compose.yml -d
+  738  docker-compose -f /home/estudiante/MLops_P2/docker-compose.yml up -d
+  739  docker compose -f /home/estudiante/MLops_P2/docker-compose.yml up -d
+  740  cd Taller_4
+  741  cd locust/
+  742  docker compose up
+  743  cd ..
+  744  pwd
+  745  cd /home/estudiante/MLOps/Taller_4/call_docker_hub
+  746  cls+
+  747  cls
+  748  clear
+  749  docker compose up
+  750  docker compose -f /home/estudiante/MLops_P2/docker-compose.yml up -d
+  751  docker compose up
+  752  cd /home/estudiante/MLOps/Taller_4/locust
+  753  cls
+  754  clear
+  755  docker compose -f /home/estudiante/MLops_P2/docker-compose.yml up -d
+  756  docker compose up
+  757  docker stats
+  758  git add .
+  759  git commit -m "add"
+  760  git push
+  761  docker stats
+  762  cls
+  763  clear
+  764  cd /home/estudiante/MLOps/Taller_4/locust
+  765  docker compose up
+  766  cls
+  767  docker compose up --build
+  768  ls
+  769  cd MLOps/
+  770  ls
+  771  cd Taller_4/
+  772  ls
+  773  docker ps
+  774  cd locust/
+  775  ls
+  776  cd ..
+  777  ls
+  778  cd ..
+  779  ls
+  780  cd Taller_4
+  781  ls
+  782  cd 
+  783  cd locust
+  784  ls
+  785  cd MLOps
+  786  ls
+  787  cd Taller_4
+  788  ls
+  789  cd locust/
+  790  ls
+  791  docjer compose up -d
+  792  docker compose up -d
+  793  dpcker ps
+  794  docker ps
+  795  cd ..
+  796  ls
+  797  cd docker_hub/
+  798  ls
+  799  nano Dockerfile
+  800  nano inference_api.py 
+  801  cd ..
+  802  ñs
+  803  ls
+  804  cd call_docker_hub/
+  805  ls
+  806  nano docker-compose.yml 
+  807  cd ..
+  808  ls
+  809  cd locust/
+  810  ls
+  811  nano docker-compose.yml 
+  812  docker compose down
+  813  docker compose up -d
+  814  docker ps
+  815  docker compose down
+  816  docker compose up -d
+  817  docker ps
+  818  nano docker-compose.yml 
+  819  docker ps
+  820  history
+  821  docker stats
+  822  docker compose down
+  823  docker compose up -d
+  824  docker stats
+  825  nano docker-compose.yml 
+  826  docker stats
+  827  docker compose down
+  828  docker compose up -d
+  829  docker stats
+  830  nano docker-compose.yml 
+  831  cd ..
+  832  ls
+  833  git clone https://github.com/marinho14/MLOps_P3.git
+  834  git clone https://github.com/CristianDiazAlvarez/MLOPS_PUJ.git
+  835  cd ..
+  836  ls
+  837  cd estudiante/
+  838  ls
+  839  cd MLOPS_PUJ/
+  840  ls
+  841  clear
+  842  code .
+  843  cd ..
+  844  cd MLops_P2/
+  845  code .
+  846  cp mlflow/ /home/estudiante/MLOps_P3/
+  847  cp -r mlflow/ /home/estudiante/MLOps_P3/
+  848  cp -r myjupyter/ /home/estudiante/MLOps_P3/
+  849  cp -r pgadmin/ /home/estudiante/MLOps_P3/
+  850  sudo cp -r pgadmin/ /home/estudiante/MLOps_P3/
+  851  ls
+  852  cd ..
+  853  ls
+  854  cd MLOps_p3
+  855  cd MLOps_P3
+  856  code .
+  857  cd ..
+  858  cd ..
+  859  cd MLOPS_PUJ/
+  860  clear
+  861  cod .
+  862  code .
+  863  cd ..
+  864  cd MLOps_P3/
+  865  cls
+  866  clear
+  867  sudo snap install microk8s --classic
+  868  microk8s status --wait-ready
+  869  sudo microk8s status --wait-ready
+  870  sudo usermod -a -G microk8s estudiante
+  871  sudo chown -R estudiante ~/.kube
+  872  sudo usermod -a -G microk8s estudiante
+  873  sudo chown -R estudiante ~/.kube
+  874  newgrp microk8s
+  875  cd MLOPS_PUJ/
+  876  pwd
+  877  docker compose up 
+  878  docker-compose up 
+  879  docker compose up 
+  880  docker container prune
+  881  docker compose up 
+  882  clear
+  883  docker compose up 
+  884  cls
+  885  clear
+  886  docker compose up --build
+  887  chmod +x .
+  888  sudo chmod +x .
+  889  sudo chmod+x .
+  890  sudo chmod 777 .
+  891  docker compose up --build
+  892  cls
+  893  clear
+  894  sudo apt-get update
+  895  sudo chown pgadmin:pgadmin /var/lib/pgadmin/pgadmin4.db
+  896  sudo chmod 600 /var/lib/pgadmin/pgadmin4.db
+  897  sudo chmod 600 pgadmin/pgadmin4.db
+  898  sudo chmod 600 /pgadmin/pgadmin4.db
+  899  sudo chmod 777 /pgadmin/pgadmin4.db
+  900  sudo chmod 777 /pgadmin/data/pgadmin4.db
+  901  sudo chmod 777 pgadmin/data/pgadmin4.db
+  902  docker compose up --build
+  903  sudo chmod 777 pgadmin
+  904  sudo rm pgadmin
+  905  sudo rm -r pgadmin
+  906  cls
+  907  sudo chmod 777 pgadmin
+  908  sudo chmod 777 .
+  909  docker compose up --build
+  910  clear
+  911  sudo chmod 777 pgadmin/
+  912  sudo chmod 777 pgadmin/*
+  913  docker compose up --build
+  914  sudo chmod 777 .
+  915  docker compose up --build
+  916  cd ..
+  917  sudo chmod 777 MLOps_P3/*
+  918  cd MLOps_P3/
+  919  clear
+  920  sudo chmod 777 ./*
+  921  docker compose up --build
+  922  cls
+  923  docker compose up --build
+  924  cls
+  925  docker compose up --build
+  926  docker compose up
+  927  docker compose up --build
+  928  docker compose down
+  929  docker compose up --build
+  930  git add .
+  931  sudo git add .
+  932  git commit -m "add"
+  933  sudo git commit -m "add"
+  934  git push
+  935  docker compose up
+  936  ls
+  937  cd MLOps_P3
+  938  ls
+  939  microk8s kubectl get all --all-namespaces
+  940  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+  941  nano docker-compose.yml 
+  942  ls
+  943  cd docker_file/
+  944  ls
+  945  nano docker-compose.yml 
+  946  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+  947  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+  948  sudo microk8s kubectl apply -f komposefiles/
+  949  sudo microk8s kubectl get all --all-namespaces
+  950  sudo microk8s kubectl describe pod pod/mysql-5557d8f849-bmg4j
+  951  sudo microk8s kubectl describe pod/mysql-5557d8f849-bmg4j
+  952  clear
+  953  sudo microk8s kubectl describe pod/mysql-5557d8f849-bmg4j
+  954  df -h
+  955  cd MLOps_P3
+  956  ls
+  957  cd docker_file/
+  958  ls
+  959  cd komposefiles/
+  960  ls
+  961  nano mysql-service.yaml 
+  962  nano mysql-deployment.yaml 
+  963  nano mysql-tcp-service.yaml 
+  964  nano mysql-service.yaml 
+  965  nano mysql-tcp-service.yaml 
+  966  nano mysql-deployment.yaml 
+  967  sudo nano mysql-deployment.yaml 
+  968  cd ..
+  969  sudo microk8s kubectl apply -f komposefiles/
+  970  microk8s kubectl get all --all-namespaces
+  971  sudo microk8s kubectl delete --all pods --namespace=default
+  972  microk8s kubectl apply -f komposefiles/
+  973  microk8s kubectl get all --all-namespaces
+  974  microk8s kubectl apply -f komposefiles/
+  975  microk8s kubectl get all --all-namespaces
+  976  sudo microk8s kubectl describe  pod/mysql-86bb69449f-4trbw
+  977  microk8s kubectl get all --all-namespaces
+  978  sudo microk8s kubectl describe pod/fastapi-6b864847cd-nvb2v
+  979  ls
+  980  nano docker-compose.yml 
+  981  cd ..
+  982  nano docker-compose.yml 
+  983  cd docker_file/
+  984  nano docker-compose.yml 
+  985  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+  986  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+  987  sudo microk8s kubectl apply -f komposefiles/
+  988  sudo microk8s kubectl get all --all-namespaces
+  989  sudo microk8s kubectl describe pod/mysql-5557d8f849-kl72n
+  990  sudo microk8s kubectl get all --all-namespaces
+  991  sudo microk8s kubectl describe pod/mysql-5557d8f849-kl72n
+  992  cd ..
+  993  cd MLops_P2
+  994  cd ..
+  995  cd MLOps
+  996  ls
+  997  code .
+  998  curl -L https://github.com/kubernetes/kompose/releases/download/v1.26.0/kompose-linux-amd64 -o kompose
+  999  chmod +x kompose
+ 1000  sudo mv ./kompose /usr/local/bin/kompose
+ 1001  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1002  cd ..
+ 1003  cd MLOPS_PUJ/
+ 1004  cd Niveles/3/Kubernetes/
+ 1005  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1006  sudo chown -R estudiante ~/.kube
+ 1007  clear
+ 1008  microk8s status --wait-ready
+ 1009  microk8s kubectl get all --all-namespaces
+ 1010  curl -L https://github.com/kubernetes/kompose/releases/download/v1.26.0/kompose-linux-amd64 -o kompose
+ 1011  chmod +x kompose
+ 1012  sudo mv ./kompose /usr/local/bin/kompose
+ 1013  clear
+ 1014  cd docker_file
+ 1015  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1016  microk8s kubectl apply -f komposefiles/
+ 1017  microk8s kubectl get all --all-namespaces
+ 1018  microk8s kubectl get service
+ 1019  microk8s kubectl delete service --all
+ 1020  microk8s kubectl apply -f komposefiles/
+ 1021  microk8s kubectl get service
+ 1022  microk8s kubectl delete service --all
+ 1023  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1024  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1025  microk8s kubectl apply -f komposefiles/
+ 1026  microk8s kubectl get service
+ 1027  microk8s fastapi port-forward --address 0.0.0.0 service/adminer 8083:8000
+ 1028  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8083:8000
+ 1029  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8083
+ 1030  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8083:8083
+ 1031  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8000:8083
+ 1032  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8083:8083
+ 1033  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8000
+ 1034  kubectl get pods
+ 1035  microk8s get pods
+ 1036  microk8s kubectl get pods
+ 1037  microk8s kubectl describe pod fastapi
+ 1038  microk8s kubectl delete service --all
+ 1039  kompose.service.type: LoadBalancer
+ 1040  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath kompose.service.type: LoadBalancer
+ 1041  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath --kompose.service.type: LoadBalancer
+ 1042  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1043  microk8s kubectl apply -f komposefiles/
+ 1044  microk8s kubectl get nodes
+ 1045  microk8s kubectl get services
+ 1046  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8083:8083
+ 1047  microk8s kubectl get services
+ 1048  microk8s kubectl get nodes
+ 1049  microk8s kubectl get services
+ 1050  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8083
+ 1051  microk8s kubectl port-forward --address 0.0.0.0 service/fastapi 8080
+ 1052  microk8s kubectl get services
+ 1053  microk8s kubectl get nodes
+ 1054  microk8s kubectl get pods
+ 1055  docker compose up
+ 1056  docker prune
+ 1057  docker compose prune
+ 1058  dockerprune
+ 1059  docker prune
+ 1060  docker image prune
+ 1061  docker compose up
+ 1062  docker compose down 
+ 1063  docker compose up
+ 1064  docker image prune -a
+ 1065  docker compose up
+ 1066  docker ps
+ 1067  docker container prune
+ 1068  docker compose up
+ 1069  docker container prune
+ 1070  docker compose up
+ 1071  cd ..
+ 1072  cd MLOps
+ 1073  ls
+ 1074  cd Taller_4
+ 1075  ls
+ 1076  cd locust/
+ 1077  ls
+ 1078  code docker-compose.yml 
+ 1079  cd ..
+ 1080  cd docker_files
+ 1081  cd docker_file
+ 1082  microk8s kubectl get nodes
+ 1083  microk8s kubectl get all --all-namespaces
+ 1084  microk8s kubectl apply -f komposefiles/
+ 1085  microk8s kubectl get all --all-namespaces
+ 1086  microk8s kubectl get service
+ 1087  sudo microk8s kubectl describe --all
+ 1088  sudo microk8s kubectl describe 
+ 1089  sudo microk8s kubectl describe service/fastapi
+ 1090  clear
+ 1091  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1092  microk8s kubectl apply -f komposefiles/
+ 1093  sudo microk8s kubectl describe --all
+ 1094  microk8s kubectl get all --all-namespaces
+ 1095  sudo microk8s kubectl describe pod/mysql-5557d8f849-5vsxs
+ 1096  microk8s kubectl get all --all-namespaces
+ 1097  sudo microk8s kubectl describe pod/fastapi-6b864847cd-mhzvm
+ 1098  microk8s kubectl get all --all-namespaces
+ 1099  sudo microk8s kubectl describe pod/fastapi-6b864847cd-mhzvm
+ 1100  sudo microk8s kubectl describe pod/mysql-5557d8f849-5vsxs
+ 1101  microk8s kubectl get all --all-namespaces
+ 1102  ls
+ 1103  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1104  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1105  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1106  microk8s kubectl apply -f komposefiles/
+ 1107  microk8s kubectl get all --all-namespaces
+ 1108  watch 
+ 1109  watch microk8s kubectl apply -f komposefiles/ 
+ 1110  watch microk8s kubectl get all --all-namespaces
+ 1111  microk8s kubectl get all --all-namespaces
+ 1112  sudo microk8s kubectl describ epod/mysql-7bf6f6cbf4-2j7wv
+ 1113  sudo microk8s kubectl describe pod/mysql-7bf6f6cbf4-2j7wv
+ 1114  docker image prune
+ 1115  docker container prune
+ 1116  docker image prune
+ 1117  docker images
+ 1118  df -u
+ 1119  df 
+ 1120  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1121  df -h
+ 1122  docker system df
+ 1123  docker system df -v
+ 1124  docker system prune
+ 1125  docker system df -v
+ 1126  df -h
+ 1127  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1128  clear
+ 1129  microk8s kubectl apply -f komposefiles/
+ 1130  watch -n microk8s kubectl get all --all-namespaces
+ 1131  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1132  clear
+ 1133  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1134  clear
+ 1135  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1136  cd komposefiles/
+ 1137  ls
+ 1138  clear
+ 1139  ls
+ 1140  microk8s kubectl apply -f fastapi-deployment.yaml,fastapi-service.yaml,fastapi-tcp-service.yaml
+ 1141  clear
+ 1142  microk8s kubectl get all --all-namespaces
+ 1143  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1144  sudo microk8s kubectl describe pod/fastapi-6c669fdc7-tvqz2
+ 1145  sudo microk8s kubectl describe pod/mysql-7bf6f6cbf4-26zxw 
+ 1146  df -v
+ 1147  df -h
+ 1148  sudo microk8s kubectl describe pod/mysql-7bf6f6cbf4-26zxw 
+ 1149  ls /var/lib/microk8s/
+ 1150  pwd
+ 1151  df -h
+ 1152  cd ..
+ 1153  ls
+ 1154  cd snap/
+ 1155  ls
+ 1156  ls microk8s/
+ 1157  ls -a microk8s/
+ 1158  df .
+ 1159  du -sh .
+ 1160  sudo du -sh .
+ 1161  ls
+ 1162  sudo du -h --max-depth=1
+ 1163  cd ..
+ 1164  cd MLops_P2/
+ 1165  ls
+ 1166  cp -r inference /home/estudiante/MLOps_P3
+ 1167  ls /var/lib/mysql
+ 1168  sudo ls /var/lib/mysql
+ 1169  pwd
+ 1170  cd ..
+ 1171  pwd
+ 1172  cd ..
+ 1173  pwd
+ 1174  cd ..
+ 1175  ls
+ 1176  cd var/lib/
+ 1177  ls
+ 1178  cd mysql
+ 1179  sudo microk8s kubectl exec -it pod/mysql-kb-7466b6dbb6-mvlnf -- /bin/bash
+ 1180  cd ..
+ 1181  cd MLOps
+ 1182  cd Taller_
+ 1183  cd Taller_4
+ 1184  ls
+ 1185  cd locust/
+ 1186  ls
+ 1187  code locustfile.py 
+ 1188  sudo netstat -tuln
+ 1189  sudo microk8s kubectl exec -it pod/mysql-kb-7466b6dbb6-5z7g5 -- /bin/bash
+ 1190  sudo netstat -tuln
+ 1191  sudo apt-get install netstat
+ 1192  ping http://10.43.101.151:8888
+ 1193  ping 10.43.101.151
+ 1194  docker compose up --build
+ 1195  pip install streamlit
+ 1196  ls
+ 1197  cls
+ 1198  cd streamlit/
+ 1199  streamlit run app.py
+ 1200  streamlit hello
+ 1201  streamlit run app.py
+ 1202  streamlit run --server.port 8888 app.py
+ 1203  streamlit hello
+ 1204  sudo streamlit hello
+ 1205  streamlit run --server.port 8000 app.py
+ 1206  streamlit run --server.port 8301 app.py
+ 1207  sudo streamlit hello --server.port 8301
+ 1208  streamlit hello --server.port 8301
+ 1209  streamlit hello --server.port 8083
+ 1210  streamlit hello --server.port 8082
+ 1211  streamlit run --server.port 8082 app.py
+ 1212  clear
+ 1213  streamlit run --server.port 8082 app.py
+ 1214  sudo gut stah
+ 1215  sudo gut stash
+ 1216  sudo git stash
+ 1217  git reset --hard
+ 1218  sudo git reset --hard
+ 1219  sudo git pull
+ 1220  sudo git pull --no-rebase
+ 1221  clear
+ 1222  docker compose up 
+ 1223  dsudo cker compose up 
+ 1224  sudo docker compose up
+ 1225  sudo chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1226  sudo chmod 777 dags
+ 1227  sudo docker compose up
+ 1228  watch -n microk8s kubectl get all --all-namespaces
+ 1229  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1230  ping http://10.43.101.151:3307/
+ 1231  ping 10.43.101.151:3307
+ 1232  docker exec -it airflow-container chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1233  docker ps
+ 1234  docker exec -it apache/airflow:2.7.0 chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1235  docker exec -it apache/airflow chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1236  docker container ps
+ 1237  docker exec -it mlops_p3-airflow-scheduler-1 chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1238  sudo docker exec -it mlops_p3-airflow-scheduler-1 chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1239  docker exec -it mlops_p3-airflow-scheduler-1 chmod 777 /opt/airflow/logs/dag_processor_manager/dag_processor_manager.log
+ 1240  docker ps
+ 1241  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1242  kubectl get svc mysql-kb
+ 1243  sudo snap install kubectl
+ 1244  snap install kubectl
+ 1245  sudo snap install kubectl
+ 1246  sudo snap install kubectl --classic
+ 1247  kubectl get svc mysql-kb
+ 1248  kubectl get svc
+ 1249  sudp kubectl get svc
+ 1250  sudo kubectl get svc
+ 1251  micro8ks kubectl get svc mysql-kb
+ 1252  microk8s 
+ 1253  microk8s kubectl 
+ 1254  kubectl get svc
+ 1255  kubectl config current-context
+ 1256  microk8s kubectl get svc
+ 1257  clear
+ 1258  sudo docker compose up
+ 1259  sudo chmod +x logs
+ 1260  sudo docker compose up
+ 1261  sudo chmod 777 *
+ 1262  sudo docker compose up
+ 1263  cls
+ 1264  rm -r logs
+ 1265  sudo rm -r logs
+ 1266  sudo docker compose up
+ 1267  sudo docker compose down
+ 1268  sudo docker compose up --build
+ 1269  clear
+ 1270  sudo docker compose up --build
+ 1271  chmod +x dags/*
+ 1272  sudo chmod +x dags/*
+ 1273  sudo chmod +x dags/main.py 
+ 1274  sudo chmod 777 dags/main.py 
+ 1275  sudo chmod 777 logs
+ 1276  sudo docker compose up --build
+ 1277  git add .
+ 1278  sudo git add .
+ 1279  sudo git commit -m "streamlit anf sql in kubernetes"
+ 1280  git push
+ 1281  sudo git add .
+ 1282  sudo git commit -m "fix streamlit anf sql in kubernetes"
+ 1283  git push
+ 1284  docker compose up
+ 1285  clear
+ 1286  docker compose up
+ 1287  docker compose up --build
+ 1288  docker compose down
+ 1289  docker compose up --build
+ 1290  chmod +x .
+ 1291  chmod +x /*
+ 1292  git add .
+ 1293  chmod +x .git/objects
+ 1294  git add .
+ 1295  chmod +x pgadmin/data/storage/pgadmin4_pgadmin.org/
+ 1296  sudo chmod +x pgadmin/data/storage/pgadmin4_pgadmin.org/
+ 1297  git add .
+ 1298  sudo chmod +x pgadmin/data/storage/pgadmin4_pgadmin.org/
+ 1299  git add .
+ 1300  chmod +x -r  pgadmin/* 
+ 1301  sudo chmod +x -r  pgadmin/* 
+ 1302  sudo chmod+x -r  pgadmin/* 
+ 1303  sudo chmod +x -r  pgadmin/* 
+ 1304  sudo chmod +x  pgadmin/* 
+ 1305  sudo chmod +x -r  pgadmin/* 
+ 1306  git add .
+ 1307  sudo git add .
+ 1308  sudo git commit -m "Up "
+ 1309  git push
+ 1310  cd docker_file/
+ 1311  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1312  microk8s kubectl apply -f komposefiles/
+ 1313  microk8s kubectl get all --all-namespaces
+ 1314  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1315  cd ..
+ 1316  pwd
+ 1317  microk8s kubectl get all --all-namespaces
+ 1318  cd docker_file/
+ 1319  microk8s kubectl apply -f komposefiles/
+ 1320  microk8s kubectl get all --all-namespaces
+ 1321  mwatch icrok8s kubectl get all --all-namespaces
+ 1322  watch  microk8s kubectl get all --all-namespaces
+ 1323  sudo microk8s kubectl describe pod/mysql-7bf6f6cbf4-x956t 
+ 1324  sudo microk8s kubectl logs mysql-7bf6f6cbf4-x956t -c mysql
+ 1325  sudo microk8s kubectl exec -it mysql-7bf6f6cbf4-x956t -- /bin/bash
+ 1326  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1327  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1328  microk8s kubectl apply -f komposefiles/
+ 1329  watch  microk8s kubectl get all --all-namespaces
+ 1330  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1331  clear
+ 1332  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1333  sudo kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1334  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1335  microk8s kubectl apply -f komposefiles/
+ 1336  watch  microk8s kubectl get all --all-namespaces
+ 1337  sudo microk8s kubectl logs pod/mysql-kb-77784db876-7xqrb  -c mysql
+ 1338  sudo microk8s kubectl logs pod/mysql-kb-77784db876-7xqrb  -c mysql-kb
+ 1339  sudo microk8s kubectl delete pod/mysql-kb-77784db876-7xqrb
+ 1340  sudo rm -rf /var/lib/mysql/*
+ 1341  microk8s kubectl apply -f komposefiles/
+ 1342  watch  microk8s kubectl get all --all-namespaces
+ 1343  sudo microk8s kubectl delete pod/mysql-kb-77784db876-7xqr
+ 1344  watch  microk8s kubectl get all --all-namespaces
+ 1345  sudo microk8s kubectl logs pod/mysql-kb-77784db876-nhljs -c mysql-kb
+ 1346  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1347  microk8s kubectl apply -f komposefiles/
+ 1348  watch  microk8s kubectl get all --all-n
+ 1349  watch  microk8s kubectl get all --all-namespaces
+ 1350  sudo microk8s kubectl logs pod/mysql-kb-77784db876-frxxc -c mysql-kb
+ 1351  kompose convert -f docker-compose.yml -o komposefiles/
+ 1352  microk8s kubectl apply -f komposefiles/
+ 1353  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1354  sudo microk8s kubectl logs pod/mysql-kb-757fc6f68b-wtq5d -c mysql-kb
+ 1355  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1356  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1357  kompose convert -f docker-compose.yml -o komposefiles/ --volumes emptyDir
+ 1358  watch  microk8s kubectl get all --all-namespaces
+ 1359  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1360  microk8s kubectl apply -f komposefiles/
+ 1361  watch  microk8s kubectl get all --all-namespaces
+ 1362  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1363  sudo kompose convert -f docker-compose.yml -o komposefiles/
+ 1364  microk8s kubectl apply -f komposefiles/
+ 1365  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1366  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1367  sudo kompose convert -f docker-compose.yml -o komposefiles/
+ 1368  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1369  sudo rm -r komposefiles/
+ 1370  kompose convert -f docker-compose.yml -o komposefiles/ --volumes emptyDir
+ 1371  microk8s kubectl apply -f komposefiles/
+ 1372  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1373  clear
+ 1374  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1375  kompose convert -f docker-compose.yml -o komposefiles/ --volumes emptyDir
+ 1376  microk8s kubectl apply -f komposefiles/
+ 1377  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1378  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1379  microk8s kubectl apply -f komposefiles/
+ 1380  watch -n 0 microk8s kubectl get all --all-namespaces
+ 1381  ls
+ 1382  cd MLOps_P3/
+ 1383  ls
+ 1384  sudo docker ps
+ 1385  microk8s kubectl get all --all-namespaces
+ 1386  docker ps
+ 1387  sudo docker-compose ps
+ 1388  sudo docker compose ps
+ 1389  sudo docker-compose ps
+ 1390  docker-compose ps
+ 1391  docker compose ps
+ 1392  docker ps
+ 1393  microk8s kubectl get all --all-namespaces
+ 1394  ls
+ 1395  cd daGS
+ 1396  cd dags
+ 1397  ls
+ 1398  nano main.py 
+ 1399  ls
+ 1400  sudo docker compose down
+ 1401  sudo docker compose up -d
+ 1402  sudo docker compose ps
+ 1403  sudo docker ps
+ 1404  sudo docker compose down
+ 1405  sudo docker compose up -d
+ 1406  sudo docker ps
+ 1407  ls
+ 1408  cd MLOps_P3/
+ 1409  ls
+ 1410  docker ps
+ 1411  docker-ps
+ 1412  docker-compose ps
+ 1413  sudo docker-compose ps
+ 1414  sudo docker compose ps
+ 1415  kubectl get pods
+ 1416  microk8s kubectl get pods
+ 1417  microk8s kubectl get all --all-namespaces
+ 1418  ls
+ 1419  nano docker-compose.yml 
+ 1420  cs mlflow/
+ 1421  cd mlflow/
+ 1422  ls
+ 1423  nano Dockerfile 
+ 1424  cd ..
+ 1425  ls
+ 1426  cd docker_file/
+ 1427  ls
+ 1428  nano docker-compose.yml 
+ 1429  ls
+ 1430  microk8s kubectl delete --all daemonsets,replicasets,services,deployments,pods,rc,ingress --namespace=default
+ 1431  kompose convert -f docker-compose.yml -o komposefiles/ --volumes hostPath
+ 1432  ls
+ 1433  cd komposefiles/
+ 1434  ls
+ 1435  microk8s kubectl apply -f inference-tcp-service.yaml,train-tcp-service.yaml,inference-deployment.yaml,netinference-networkpolicy.yaml,train-deployment.yaml,taller1-net-db-networkpolicy.yaml
+ 1436  cd ..
+ 1437  microk8s kubectl apply -f inference-tcp-service.yaml,train-tcp-service.yaml,inference-deployment.yaml,netinference-networkpolicy.yaml,train-deployment.yaml,taller1-net-db-networkpolicy.yaml
+ 1438  ls
+ 1439  cd komposefiles/
+ 1440  ls
+ 1441  cd ..
+ 1442  microk8s kubectl apply -f komposefiles/
+ 1443  microk8s kubectl get all --all-namespaces
+ 1444  history
+ 1445  sudo microk8s kubectl logs
+ 1446  microk8s kubectl get all --all-namespaces
+ 1447  sudo microk8s kubectl logs pod/mysql-kb-5799db4d68-c2d2p
+ 1448  ls mysql-db-volume-kb/
+ 1449  ls -a  mysql-db-volume-kb/
+ 1450  ls mysql-db-volume-kb/
+ 1451  ls
+ 1452  ls mysql-db-volume-kb
+ 1453  history > history.txt
